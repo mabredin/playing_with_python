@@ -2,10 +2,10 @@ import random
 
 
 class Warrior:
-    health = 100
 
     def __init__(self, name):
         self.name = name
+        self.health = 100
 
     def hit(self, obj):
         obj.was_hit()
