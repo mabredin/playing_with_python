@@ -16,7 +16,7 @@ class WinDoor:
 class Room:
     def __init__(self, x, y, z):
         self.width = x
-        self.lenght = y
+        self.length = y
         self.height = z
         self.wd = []
 
@@ -30,7 +30,7 @@ class Room:
         return new_square
 
     def get_full_square(self):
-        square = 2 * self.height * (self.width + self.lenght)
+        square = 2 * self.height * (self.width + self.length)
         return round(square, 2)
 
     def get_count_wallpaper(self, wallpaper):
